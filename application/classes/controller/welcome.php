@@ -23,7 +23,17 @@ class Controller_Welcome extends Controller {
   {
     $register = TRUE;
     
-    if ($register)
+    if ($register)  
+    {
+      
+    }
+  }
+  
+  public function action_logout()
+  {
+    $logout = TRUE;
+    
+    if ( ! $logout)
     {
       
     }
