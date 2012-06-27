@@ -21,7 +21,12 @@ class Controller_Welcome extends Controller {
   
   public function action_register()
   {
+    $register = TRUE;
     
+    if ($register)
+    {
+      
+    }
   }
 
 } // End Welcome
