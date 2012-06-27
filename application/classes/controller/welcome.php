@@ -18,5 +18,15 @@ class Controller_Welcome extends Controller {
       $name = 'Login User';
     }
   }
+  
+  public function action_logout()
+  {
+    $logout = TRUE;
+    
+    if ( ! $logout)
+    {
+      
+    }
+  }
 
 } // End Welcome
