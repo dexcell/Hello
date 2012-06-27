@@ -1,7 +1,9 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 
 class Controller_Welcome extends Controller {
-
+  
+  public $version = '1.0';
+  
 	public function action_index()
 	{
     $name = 'Erick';
