@@ -18,5 +18,10 @@ class Controller_Welcome extends Controller {
       $name = 'Login User';
     }
   }
+  
+  public function action_register()
+  {
+    
+  }
 
 } // End Welcome
