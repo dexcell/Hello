@@ -8,5 +8,15 @@ class Controller_Welcome extends Controller {
     $hello = 'Hello world';
 		$this->response->body($hello.' '.$name);
 	}
+  
+  public function action_login()
+  {
+    $login = TRUE;
+    
+    if ($login)
+    {
+      
+    }
+  }
 
 } // End Welcome
