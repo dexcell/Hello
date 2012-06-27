@@ -15,7 +15,7 @@ class Controller_Welcome extends Controller {
     
     if ($login)
     {
-      
+      $name = 'Login User';
     }
   }
 
