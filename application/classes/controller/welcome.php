@@ -18,6 +18,10 @@ class Controller_Welcome extends Controller {
     if ($login)
     {
       $name = 'Login User';
+      if ( ! $name)
+      {
+        $name = 'Erick';
+      }
     }
   }
   
