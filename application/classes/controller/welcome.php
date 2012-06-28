@@ -13,15 +13,16 @@ class Controller_Welcome extends Controller {
   
   public function action_login()
   {
-    $login = TRUE;
+    $username = $this->request->post('username');
+    $password = $this->request->post('password');
     
-    if ($login)
+    if ($username == 'dexcell' AND $password == '1234')
     {
-      $name = 'Login User';
-      if ( ! $name)
-      {
-        $name = 'Erick';
-      }
+      $this->response->body('You are now logged in');
+    }
+    else
+    {
+      die();
     }
   }
   
