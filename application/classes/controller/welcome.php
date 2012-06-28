@@ -2,7 +2,7 @@
 
 class Controller_Welcome extends Controller {
   
-  public $version = '1.0';
+  public $version = '1.1';
   
 	public function action_index()
 	{
