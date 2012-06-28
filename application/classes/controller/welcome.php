@@ -2,7 +2,7 @@
 
 class Controller_Welcome extends Controller {
   
-  public $version = '1.0';
+  public $version = '1.1';
   
 	public function action_index()
 	{
@@ -13,11 +13,16 @@ class Controller_Welcome extends Controller {
   
   public function action_login()
   {
-    $login = TRUE;
+    $username = $this->request->post('username');
+    $password = $this->request->post('password');
     
-    if ($login)
+    if ($username == 'dexcell' AND $password == '1234')
     {
-      $name = 'Login User';
+      $this->response->body('You are now logged in');
+    }
+    else
+    {
+      die();
     }
   }
   
